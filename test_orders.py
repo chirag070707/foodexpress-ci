@@ -2,7 +2,7 @@ from orders import order_total, is_free_delivery
 
 
 def test_order_total():
-    assert order_total(250, 40) == 290
+    assert order_total(250, 40) == 999
 
 
 def test_free_delivery_yes():
