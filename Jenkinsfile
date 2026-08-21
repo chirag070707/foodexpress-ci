@@ -4,13 +4,13 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                bat 'python -m pip install pytest'
+                bat '"C:\\Users\\hu\\AppData\\Local\\Python\\bin\\python.exe" -m pip install pytest'
             }
         }
 
         stage('Test') {
             steps {
-                bat 'python -m pytest'
+                bat '"C:\\Users\\hu\\AppData\\Local\\Python\\bin\\python.exe" -m pytest'
             }
         }
     }
